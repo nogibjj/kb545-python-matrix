@@ -10,5 +10,3 @@ Tasks Completed Include:
 * Added a function that creates a graph of the average sepal length of 3 different species of Iris, and saves it as a photo. The graph is shown below
 * Added a test function called test_stat.py, which runs an assert on the function to gauge if it properly works. It compares the descriptive stats values with what they should be, and verifies that an image has been created
 * Edited MakeFile to properly install everything, test the code, format everything proerply, and run a linter
-
-![answer](https://github.com/nogibjj/kb545-pandas-stat-script/assets/55768636/ec4e21d0-e605-4b18-adb1-aac7b97a8f58)
