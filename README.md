@@ -1,12 +1,10 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
-## Pandas Descriptive Statistics Script
+## Python Github Actions Matrix
 
-This is a POC of the Python Template, showing that creating a statistic script is automated. This is for Mini-Project 2 for IDS 706 Data Engineering
+This is an example of Github Actions Matrix, where different Operarting Systems and Python versions are used to demonstrate that the python script has been fully tested
 
 Tasks Completed Include:
 
-* Adding the proper pandas version to the requirements.txt file, specifically pandas version 2.1.0. Also added matplotlib
-* Added a src folder that held the created script function, which reads the iris.csv (found at https://gist.github.com/netj/8836201), and returns descriptive stats on sepal_length
-* Added a function that creates a graph of the average sepal length of 3 different species of Iris, and saves it as a photo. The graph is shown below
-* Added a test function called test_stat.py, which runs an assert on the function to gauge if it properly works. It compares the descriptive stats values with what they should be, and verifies that an image has been created
-* Edited MakeFile to properly install everything, test the code, format everything proerply, and run a linter
+* Adding the proper pandas version to the requirements.txt file, specifically pandas version 2.0.3. This is to ensure that pandas can run on all 3 python versions
+* Implemented a Github Actions Matrix, to test on 3 python versions (3.8, 3.9, 3.11) as well on 2 operating systems (ubuntu and windows)
+* Adds a proper badge to this README to signify that all 3 python versions have been run and tested
