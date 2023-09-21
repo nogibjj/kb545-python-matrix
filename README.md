@@ -1,4 +1,4 @@
-[![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml)
+[![Python 3.8, 3.9, 3.11](https://github.com/nogibjj/kb545-python-matrix/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/kb545-python-matrix/actions/workflows/cicd.yml)
 ## Python Github Actions Matrix
 
 This is an example of Github Actions Matrix, where different Operarting Systems and Python versions are used to demonstrate that the python script has been fully tested
